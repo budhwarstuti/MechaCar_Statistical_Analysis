@@ -6,7 +6,7 @@ Summary_Mechcar
 
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Ans: The variables/coefficients provided a non-random amount of variance to the mpg values in the dataset are as follows:
+* Ans: The variables/coefficients provided a non-random amount of variance to the mpg values in the dataset are as follows:
 i. ground clearance (p-value = 5.21 x 10^-8)
 ii. vehicle length (p-value = 2.60 x 10^-12)
 iii. intercept (p-value = 5.08 x 10^-8)
@@ -15,10 +15,10 @@ Also, the  multiple R-squared and Adjusted R-squared values are 0.7149 and 0.682
 Having said that, effect of ground clearance, vehicle length and intercept need to be taken into consideration for having an impact on mpg.
 
 * Is the slope of the linear model considered to be zero? Why or why not?
-The slope is not considered to be zero because of the very samll p-value at 5.35e-11. We've got enough evidence to reject the null hypotheis.
+* The slope is not considered to be zero because of the very samll p-value at 5.35e-11. We've got enough evidence to reject the null hypotheis.
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-This linear model predicts the mpg of MechaCar prototypes effectively. The multiple R-squared value of 0.7149 and the adjusted R-Squared value of 0.68 indicate  that there is a strong corelation between all factors provided with mpg.
+* This linear model predicts the mpg of MechaCar prototypes effectively. The multiple R-squared value of 0.7149 and the adjusted R-Squared value of 0.68 indicate  that there is a strong corelation between all factors provided with mpg.
 
 ## **Summary Statistics on Suspension Coils**
 Total_summary
@@ -49,29 +49,23 @@ T_test_lot3
 
 ## **Study Design: MechaCar vs Competition**
 Due to increase in accidents on roads, I would like to compare the following features of MechaCar with competitor cars with special attention on advanced safety features like Electronic stability control, Traction control other than the regular features like Airbags, Antilock brakes, safety belts etc:
-* Model 
-* Year of manufacture
-* Cost
-* Fuel Efficiency
-* Horse power
-* Maintenance
-* Safety Features
+Model, Year of manufacture, Cost, Fuel Efficiency, Horse power, Maintenance, Safety Features.
 
 * What metric or metrics are you going to test?
 The metrics for comparison of MechaCar and competitor cars would be as follows:
-* Model 
-* Year of manufacture
-* Cost
-* Fuel Efficiency
-* Horse power
-* Maintenance
-* Safety Features
+          i. Model 
+         ii. Year of manufacture
+        iii.  Cost
+         iv.  Fuel Efficiency
+          v.  Horse power
+         vi. Maintenance
+        vii. Safety Features
 
 * What is the null hypothesis or alternative hypothesis?
-Null Hypothesis: 
+* Null Hypothesis: 
 Having 2 advanced safety features (other than the regular safety features) in the MechaCar reduces the accidents on road by 30% more than the competitor brand.
 
-Alternate Hypothesis: 
+* Alternate Hypothesis: 
 Having 2 advanced safety features (other than the regular safety features) in the MechaCar has no effect on the rate of road accidents.
 
 * What statistical test would you use to test the hypothesis? And why?
