@@ -15,10 +15,10 @@ Also, the  multiple R-squared and Adjusted R-squared values are 0.7149 and 0.682
 Having said that, effect of ground clearance, vehicle length and intercept need to be taken into consideration for having an impact on mpg.
 
 * Is the slope of the linear model considered to be zero? Why or why not?
-* The slope is not considered to be zero because of the very samll p-value at 5.35e-11. We've got enough evidence to reject the null hypotheis.
+* Ans: The slope is not considered to be zero because of the very samll p-value at 5.35e-11. We've got enough evidence to reject the null hypotheis.
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-* This linear model predicts the mpg of MechaCar prototypes effectively. The multiple R-squared value of 0.7149 and the adjusted R-Squared value of 0.68 indicate  that there is a strong corelation between all factors provided with mpg.
+* Ans: This linear model predicts the mpg of MechaCar prototypes effectively. The multiple R-squared value of 0.7149 and the adjusted R-Squared value of 0.68 indicate  that there is a strong corelation between all factors provided with mpg.
 
 ## **Summary Statistics on Suspension Coils**
 Total_summary
@@ -29,7 +29,7 @@ Lot_summary
 
 
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-* As per the total summary for all three lots, the manufacturing data meets the requirement of the variance below 100 psi. But when we look at the individual lot sumarries, we find that lot 1 and 2 meet the variance requirements whereas lot 3 is way above the 100 psi limit.
+* Ans: As per the total summary for all three lots, the manufacturing data meets the requirement of the variance below 100 psi. But when we look at the individual lot sumarries, we find that lot 1 and 2 meet the variance requirements whereas lot 3 is way above the 100 psi limit.
 
 ## **T-Tests on Suspension Coils**
 T-test overall
@@ -62,17 +62,16 @@ The metrics for comparison of MechaCar and competitor cars would be as follows:
         vii. Safety Features
 
 * What is the null hypothesis or alternative hypothesis?
-* Null Hypothesis: 
+* Ans: Null Hypothesis: 
 Having 2 advanced safety features (other than the regular safety features) in the MechaCar reduces the accidents on road by 30% more than the competitor brand.
-
-* Alternate Hypothesis: 
+Alternate Hypothesis: 
 Having 2 advanced safety features (other than the regular safety features) in the MechaCar has no effect on the rate of road accidents.
 
 * What statistical test would you use to test the hypothesis? And why?
-I would use multiple linear regression where manufacturer could be independent variable and no. of advanced safety features, cost, fuel efficiency, Horse power, Maintenance cost would be the dependent variables.
+* Ans: I would use multiple linear regression where manufacturer could be independent variable and no. of advanced safety features, cost, fuel efficiency, Horse power, Maintenance cost would be the dependent variables.
 
 * What data is needed to run the statistical test?
-I will need the data over 5 years for Mechacar and different brands for the below features:
+* Ans: I will need the data over 5 years for Mechacar and different brands for the below features:
  
 * Model 
 * Year of manufacture
