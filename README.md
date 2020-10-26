@@ -79,11 +79,4 @@ Having 2 advanced safety features (other than the regular safety features) in th
 
 * What data is needed to run the statistical test?
 * Ans: I will need the data over 5 years for Mechacar and different brands for the below features:
- 
-* Model 
-* Year of manufacture
-* Cost
-* Fuel Efficiency
-* Horse power
-* Maintenance
-* Number of advanced Safety Features
+  Model, Year of manufacture, Cost, Fuel Efficiency, Horse power, Maintenance, Number of advanced Safety Features
